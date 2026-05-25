@@ -10956,6 +10956,25 @@ section.resume-section {
 section.resume-section .resume-section-content {
   width: 100%;
 }
+.custom-video{
+  width:100%;
+  max-width:900px;
+  overflow:hidden;
+  box-shadow:0 0 30px rgba(0,0,0,0.5);
+  margin-bottom:30px;
+  
+}
+.video-text{
+   font-size:1.3rem;
+   line-height:1.8;
+  opacity:0.9;
+}
+
+.video-section{
+   min-height:100vh;
+  display:flex;
+  align-items:center;
+}
 
 @media (min-width: 768px) {
   section.resume-section {
